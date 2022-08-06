@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lexend+Deca:wght@300&family=Outfit&family=Red+Hat+Display:wght@500&display=swap');
+    body{
+      background-color:   hsl(217, 54%, 11%);
+      } #main{
+         width:330px;
+         height:600px;
+        border-radius: 20px;
+         margin: auto;
+         margin-top: 70px;
+         background-color: hsl(216, 50%, 16%);
+         
+       }
+       #line{
+         margin-top: 65%;
+         margin-left:5%;
+         margin-right: 5%;
+     opacity: 0.2;
+       }
+       #img{
+        width: 85%;
+        height: 100%;
+        margin-top: 8%;
+        border-radius: 10px;
+       }
+       #top{
+         width: 100%;
+         height: 50%;
+        
+         background-size:contain;
+      
+         margin: auto;
+         margin-left: 8%;
+         background-repeat: no-repeat;
+         border-radius: 20px;
+       }
+       #bottom{
+         width:100%;
+         height:30%;
+        border-radius: 0px 0px 20px 20px;
+      color: white;
+       font-family: 'Red Hat Display', sans-serif;
+       display: block;
+    
+       }
+       #heading,#para{
+        font-family: 'Outfit', sans-serif;
+         margin-top: 5%;
+         color: white;
+         font-weight: 600;
+       }
+       #para{
+    opacity: 0.4;
+         margin-right: 20%;
+         line-height: 25px;
+        
+       }
+       #block{
+         display: flex;
+         margin-top: 5%;
+         font-family: 'Outfit', sans-serif;
+         font-weight: 600;
+       }
+       #item,#time{
+         flex:50%
+       }
+       #time{
+         margin-top: 3%;
+       }
+      p{
+        color:hsl(178, 100%, 50%) ;
+       
+      }
+       span{
+         display: inline-block;
+       }
+   #para1{
+     color:white;
+     opacity: 0.4;
+     margin-top:2px;
+   }
+   #clock{
+  margin-top: 20%;
+   }
+   #avatar{
+     width:10%;
+     height: 20%;
+     margin-left: 10%;
+     margin-top: 3%;
+   }
+   #para2{
+     color:white;
+     
+   }
+   #new{
+     display:inline
+   }
+  </style>
+</head>
+<body>
+  <div id="main">
+    <div id="top">
+      <img id= "img" src="images/image-equilibrium.jpg">
+      <div id="heading">Equilibrium #3429</div>
+      <div id="para"> Our Equilibrium collection promotes balance and calm.</div>
+      <div id ="block">
+        <div id="item">
+         <span> <img   src="images/icon-ethereum.svg"></span>
+          <span><p>0.041 ETH </p></span>
+        </div>
+        <div id="time">
+         <span> <img style="height: 20px;" id="clock" src="images/icon-clock.svg"></span>
+          <span><p id="para1">3 days left</p></span>
+        </div>
+         </div>
+    </div>
+  
+    <div id="bottom">
+<hr id="line">
+<div id="new">
+<img id="avatar" src="images/image-avatar.png">
+<span id="para1">Creation of </span><span id="para2">Jules Wyvern</span>
+</div>
+
+</div>
+    </div>
+  </div>
+
+  <!-- Equilibrium #3429
+
+  Our Equilibrium collection promotes balance and calm.
+
+  0.041 ETH
+  3 days left
+  
+  Creation of Jules Wyvern
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
